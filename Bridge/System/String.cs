@@ -649,40 +649,9 @@ namespace System
         /// The split() method splits a String object into an array of strings by separating the string into substrings.
         /// </summary>
         /// <param name="separator">Specifies the character(s) to use for separating the string. The separator is treated as a string or a regular expression. If separator is omitted, the array returned contains one element consisting of the entire string. If separator is an empty string, str is converted to an array of characters.</param>
-        /// <returns></returns>
-        public string[] Split(string separator)
-        {
-            return null;
-        }
-
-        /// <summary>
-        /// The split() method splits a String object into an array of strings by separating the string into substrings.
-        /// </summary>
-        /// <param name="separator">Specifies the character(s) to use for separating the string. The separator is treated as a string or a regular expression. If separator is omitted, the array returned contains one element consisting of the entire string. If separator is an empty string, str is converted to an array of characters.</param>
-        /// <returns></returns>
-        public string[] Split(Regex separator)
-        {
-            return null;
-        }
-
-        /// <summary>
-        /// The split() method splits a String object into an array of strings by separating the string into substrings.
-        /// </summary>
-        /// <param name="separator">Specifies the character(s) to use for separating the string. The separator is treated as a string or a regular expression. If separator is omitted, the array returned contains one element consisting of the entire string. If separator is an empty string, str is converted to an array of characters.</param>
         /// <param name="limit">Integer specifying a limit on the number of splits to be found. The split method still splits on every match of separator, but it truncates the returned array to at most limit elements.</param>
         /// <returns></returns>
-        public string[] Split(string separator, int limit)
-        {
-            return null;
-        }
-
-        /// <summary>
-        /// The split() method splits a String object into an array of strings by separating the string into substrings.
-        /// </summary>
-        /// <param name="separator">Specifies the character(s) to use for separating the string. The separator is treated as a string or a regular expression. If separator is omitted, the array returned contains one element consisting of the entire string. If separator is an empty string, str is converted to an array of characters.</param>
-        /// <param name="limit">Integer specifying a limit on the number of splits to be found. The split method still splits on every match of separator, but it truncates the returned array to at most limit elements.</param>
-        /// <returns></returns>
-        public string[] Split(Regex separator, int limit)
+        public string[] Split(Any<char, Regex, string> separator, int limit = -1)
         {
             return null;
         }
