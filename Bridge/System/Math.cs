@@ -223,9 +223,9 @@ namespace System
         [Template("{d}.trunc()")]
         public static extern decimal Truncate(decimal d);
 
-        public static extern int Sign( double value );
+        public static extern int Sign(double value);
 
-        [Template( "{value}.sign()" )]
-        public static extern int Sign( decimal value );
+        [Template("{value}.sign()")]
+        public static extern int Sign(decimal value);
     }
 }
